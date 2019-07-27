@@ -67,6 +67,8 @@ public class Login extends Application {
             }
         );
         
+        scene.getStylesheets().
+                add(Login.class.getResource("Login.css").toExternalForm());
         primaryStage.setTitle("JavaFX Login Form");
         primaryStage.setScene(scene);
         primaryStage.show();
